@@ -46,6 +46,7 @@ do
 	end
 
 	function AuraUtil.ForEachAura(unit, filter, maxCount, func)
+		if (filter ~= "HELPFUL") then oldForEachAura(unit, filter, maxCount, func); return end
 		if maxCount and maxCount <= 0 then
 			return;
 		end
