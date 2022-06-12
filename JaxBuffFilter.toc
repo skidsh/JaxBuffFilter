@@ -1,6 +1,6 @@
 ## Interface: 90205
 ## Title: |cFF99CC01Jax|r Buff Filter
-## Version: 1.0.1
+## Version: 1.0.2
 ## Notes: Removes buffs from your target frame based on a list
 ## Author: Jax
 ## SavedVariables: jaxBuffFilterDB

@@ -36,7 +36,7 @@ do
 					return nil;
 				end
 			else
-				if func(select(3, UnitAuraBySlot(unit, slot))) then
+				if func(name, nil, select(3, UnitAuraBySlot(unit, slot))) then
 					-- if func returns true then no further slots are needed, so don't return continuationToken
 					return nil;
 				end
