@@ -56,15 +56,3 @@ do
 		until continuationToken == nil;
 	end
 end
-
--- oldSetUnitBuff = GameTooltip.SetUnitBuff;
-
--- GameTooltip.SetUnitBuff = function(self, unit, id)
--- 	local name = select(1, UnitAuraBySlot(unit, id+1));
--- 	if (unit == "player" or not JaxBuffFilter:IsBuffNameBlocked(name)) then
--- 		print(name)
--- 		oldSetUnitBuff(self, unit, id);
--- 	else
--- 		GameTooltip.SetUnitBuff(self, unit, id + 1);
--- 	end
--- end
